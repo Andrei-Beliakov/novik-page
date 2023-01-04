@@ -5,3 +5,9 @@
 .skills__text {
   margin: 69px 0 83px 0;
 }
+
+.card__image {
+  width: 89px;
+  height: 89px;
+  text-align: center;
+}
