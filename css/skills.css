@@ -6,8 +6,45 @@
   margin: 69px 0 83px 0;
 }
 
+.skills__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  width: 166px;
+  min-height: 206px;
+}
+
 .card__image {
-  width: 89px;
   height: 89px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card__name {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #828282;
+  max-width: 79px;
   text-align: center;
+  margin: 23px auto 41px;
+  text-indent: 1px;
+  min-height: 34px;
+}
+
+.card__rating_star {
+  display: block;
+  width: 22px;
+}
+
+/* .card__name:before {
+  content: "\00a0";
+} */
+
+.card__rating {
+  display: flex;
+  justify-content: space-between;
 }
