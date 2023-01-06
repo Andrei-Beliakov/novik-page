@@ -9,6 +9,8 @@
 
 .portfolio__image {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .portfolio__linkname {
@@ -18,5 +20,9 @@
 .portfolio__link {
   color: #070707;
   font-weight: 500;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.portfolio__link:hover {
+  color: #828282;
 }

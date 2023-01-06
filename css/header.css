@@ -10,13 +10,6 @@ h1 {
   max-width: 124px;
 }
 
-/* .header__nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  background-color: white;
-} */
-
 .header__nav ul {
   list-style-type: none;
   display: flex;
@@ -32,6 +25,9 @@ h1 {
 
 .header__nav {
   padding-bottom: 32px;
+}
+.nav__link:hover {
+  color: #070707;
 }
 
 li:first-child a {
@@ -60,4 +56,6 @@ li:first-child a {
 
 .header__image {
   display: block;
+  width: 100%;
+  height: auto;
 }
