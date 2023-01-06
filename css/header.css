@@ -39,7 +39,7 @@ li:first-child a {
   content: "";
   display: block;
   background-color: #828282;
-  width: 940px;
+  /* max-width: 940px; */
   height: 1px;
   position: relative;
   top: 32px;
