@@ -1,0 +1,27 @@
+.footer {
+  padding: 114px 0 123px;
+}
+
+.footer__text {
+  margin: 20px auto 30px;
+  max-width: 275px;
+}
+
+.footer__socialnets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 342px;
+  margin: 80px auto 45px;
+}
+
+.socialnets__undertext {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  max-width: 243px;
+  margin: 0 auto;
+}
+
+.footer__button {
+}

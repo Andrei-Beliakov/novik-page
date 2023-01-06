@@ -10,13 +10,6 @@ h1 {
   max-width: 124px;
 }
 
-.header__nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 700;
-}
-
 .nav__link {
   color: #828282;
   text-decoration: none;
@@ -25,12 +18,15 @@ h1 {
 
 .header__nav {
   padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
 }
 .nav__link:hover {
   color: #070707;
 }
 
-li:first-child a {
+.nav__link:first-child {
   color: #070707;
 }
 
