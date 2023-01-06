@@ -11,13 +11,13 @@
     <!-- ЗАГОЛОВОК И ПАНЕЛЬ НАВИГАЦИИ-->
     <header id="home" class="header">
       <div class="container">
-        <div class="header__links">
+        <div class="header__nav">
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+            <li><a class="nav__link" href="#home">Home</a></li>
+            <li><a class="nav__link" href="#about">About me</a></li>
+            <li><a class="nav__link" href="#skills">Skills</a></li>
+            <li><a class="nav__link" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
           </ul>
         </div>
         <div class="header__title">
@@ -201,17 +201,49 @@
       <section id="portfolio" class="portfolio">
         <div class="container">
           <h2 class="portfolio__title">Portfolio</h2>
-          <img src="" alt="" class="portfolio__image" />
-          <p class="portfolio__link"></p>
 
-          <img src="" alt="" class="portfolio__image" />
-          <p class="portfolio__link"></p>
-          <img src="" alt="" class="portfolio__image" />
-          <p class="portfolio__link"></p>
+          <img
+            class="portfolio__image"
+            srcset="
+              ./images/portfolio1_1x.png 1x,
+              ./images/portfolio1_2x.png 2x
+            "
+            alt="Online fashion store"
+          />
+          <p class="portfolio__linkname">
+            <a href="" class="portfolio__link"
+              >Online fashion store - Homepage</a
+            >
+          </p>
+
+          <img
+            class="portfolio__image"
+            srcset="
+              ./images/portfolio2_1x.png 1x,
+              ./images/portfolio2_2x.png 2x
+            "
+            alt="Reebok store"
+          />
+          <p class="portfolio__linkname">
+            <a href="" class="portfolio__link">Reebok Store - Concept</a>
+          </p>
+          <img
+            class="portfolio__image"
+            srcset="
+              ./images/portfolio3_1x.png 1x,
+              ./images/portfolio3_2x.png 2x
+            "
+            alt="Braun landing page"
+          />
+          <p class="portfolio__linkname">
+            <a href="" class="portfolio__link">Braun Landing Page - Concept</a>
+          </p>
         </div>
       </section>
     </main>
     <!-- ПОДВАЛ И КОНТАКТЫ-->
-    <footer id="contacts" class="contacts"></footer>
+    <footer id="contacts" class="footer">
+      <div class="container"></div>
+    </footer>
   </body>
 </html>

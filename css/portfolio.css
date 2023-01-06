@@ -1,8 +1,23 @@
 .portfolio {
   background-color: #f6f6f6;
-  padding-top: 113;
+  padding-top: 113px;
 }
 
 .portfolio__title {
   margin-bottom: 47px;
+}
+
+.portfolio__image {
+  display: block;
+}
+
+.portfolio__linkname {
+  padding: 43px 0 99px 0;
+}
+
+.portfolio__link {
+  color: #070707;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
 }

@@ -10,24 +10,27 @@ h1 {
   max-width: 124px;
 }
 
-/* .header__links {
+/* .header__nav {
   position: sticky;
   top: 0;
   left: 0;
   background-color: white;
 } */
 
-.header__links ul,
-a {
+.header__nav ul {
   list-style-type: none;
-  text-decoration: none;
-  color: #828282;
   display: flex;
   justify-content: space-between;
   font-weight: 700;
 }
 
-.header__links {
+.nav__link {
+  color: #828282;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.header__nav {
   padding-bottom: 32px;
 }
 
@@ -35,7 +38,7 @@ li:first-child a {
   color: #070707;
 }
 
-.header__links::after {
+.header__nav::after {
   content: "";
   display: block;
   background-color: #828282;
