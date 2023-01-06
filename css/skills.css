@@ -31,18 +31,13 @@
   max-width: 79px;
   text-align: center;
   margin: 23px auto 41px;
-  text-indent: 1px;
   min-height: 34px;
+  text-indent: 1px;
 }
 
 .card__rating_star {
-  display: block;
   width: 22px;
 }
-
-/* .card__name:before {
-  content: "\00a0";
-} */
 
 .card__rating {
   display: flex;
