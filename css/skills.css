@@ -1,5 +1,5 @@
 .skills {
-  padding: 91px 0 110px 0;
+  padding: 91px 0 110px;
 }
 
 .skills__text {
@@ -42,4 +42,10 @@
 .card__rating {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1044px) {
+  .skills {
+    padding: 83px 0 99px;
+  }
 }

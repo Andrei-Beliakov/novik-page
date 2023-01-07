@@ -40,3 +40,9 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+
+@media (max-width: 1044px) {
+  .container {
+    max-width: 90%;
+  }
+}

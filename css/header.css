@@ -3,6 +3,7 @@
 }
 
 h1 {
+  display: block;
   font-size: 47px;
   line-height: 59px;
   font-weight: bold;
@@ -12,15 +13,8 @@ h1 {
 
 .nav__link {
   color: #828282;
-  font-weight: 700;
 }
 
-.header__nav {
-  padding-bottom: 32px;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 700;
-}
 .nav__link:hover {
   color: #070707;
 }
@@ -29,18 +23,28 @@ h1 {
   color: #070707;
 }
 
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 32px;
+}
+
 .header__nav::after {
   content: "";
   display: block;
   background-color: #828282;
   height: 1px;
-  position: relative;
-  top: 32px;
+  width: 100%;
+  position: absolute;
+  bottom: -32px;
 }
 
-.header__text {
+.header__title_text {
+  display: block;
   margin: 95px 0 50px 0;
-  max-width: 156px;
+  max-width: 158px;
 }
 
 .header__title {
