@@ -3,7 +3,7 @@
   padding: 120px 0 64px 0;
 }
 .about__title {
-  margin-bottom: 17px;
+  margin-bottom: 18px;
 }
 .text {
   margin-bottom: 43px;
@@ -13,4 +13,17 @@
   margin: 0 auto;
 
   max-width: 485px;
+}
+
+@media (max-width: 545px) {
+  .about {
+    padding: 81px 0 33px 0;
+  }
+
+  .about__title {
+    margin-bottom: 30px;
+  }
+  .about__wrapper {
+    max-width: 85%;
+  }
 }
