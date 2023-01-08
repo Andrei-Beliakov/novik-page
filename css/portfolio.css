@@ -22,5 +22,19 @@
 }
 
 .portfolio__link:hover {
-  color: #828282;
+  color: #9e9e9e;
+}
+
+@media (max-width: 940px) {
+  .portfolio {
+    padding-top: 81px;
+  }
+
+  .portfolio__linkname {
+    padding: 35px 0 80px 0;
+  }
+
+  .portfolio__title {
+    margin-bottom: 65px;
+  }
 }
