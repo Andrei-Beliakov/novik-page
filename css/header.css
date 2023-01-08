@@ -1,5 +1,5 @@
 .header {
-  padding: 33px 0 104px 0;
+  padding: 33px 0 104px;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
   font-size: 47px;
   line-height: 59px;
   font-weight: bold;
-  margin: 40px 0 31px 0;
+  margin: 40px 0 31px;
   max-width: 124px;
 }
 
@@ -43,7 +43,7 @@ h1 {
 
 .header__title_text {
   display: block;
-  margin: 95px 0 50px 0;
+  margin: 102px 0 48px 0;
   max-width: 158px;
 }
 
@@ -52,7 +52,49 @@ h1 {
   justify-content: space-between;
 }
 
-.header__image {
+.header__image_desk {
   width: 100%;
   height: auto;
+}
+
+.header__image_mob {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 415px) {
+  .header__image_desk {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .header__image_mob {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .header {
+    padding: 65px 0 83px 0;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 37px;
+  }
+
+  .header__title_text {
+    margin: 23px 0 0;
+  }
+
+  h1 {
+    margin: 0;
+  }
 }
