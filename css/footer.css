@@ -30,7 +30,6 @@
   max-width: 180px;
   border-radius: 21px;
   font-weight: 700;
-  /* color: #ffffff; */
   background-color: #070707;
 }
 
@@ -40,4 +39,23 @@
 
 .socialnets__icon:hover {
   opacity: 0.2;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 82px 0 90px;
+  }
+
+  .footer__text {
+    margin: 27px auto 40px;
+  }
+
+  .footer__socialnets {
+    max-width: 315px;
+    margin: 48px auto 49px;
+  }
+
+  .footer__button {
+    max-width: 315px;
+  }
 }
